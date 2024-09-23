@@ -1,0 +1,19 @@
+mode: api  # api , node 
+node: 
+  host: localhost:8332
+  user: rpcuser
+  pass: rpcpassword
+  http_post_mode: true
+  disable_tls: true
+api: 
+  url: https://mempool.space/testnet
+
+
+
+# }
+# var MainNet = &Env{
+# 	Net: &chaincfg.MainNetParams,
+# 	// MempoolApi: "https://mempool.space",
+# 	MempoolApi: "https://luminex.mempool.space",
+# 	QuickNode:  "https://proportionate-thrumming-firefly.btc.quiknode.pro/03cdd14840d46086971c9260a12751837d99b751",
+# }

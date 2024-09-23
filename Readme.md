@@ -1,0 +1,14 @@
+- 写 btc 的脚本工具集合
+- 能查询地址的uxto数量 
+- 能用来打铭文
+- 能用来打符文 
+- 能用来RBF加速 
+- 能在命令行启动时接收参数 
+- 使用 Go 语言编写
+- 主要基于 github.com/btcsuite/btcd 、 github.com/okx/go-wallet-sdk/coins/bitcoin 这两个库 
+- 要求模块清晰 
+- 命令行易于理解 
+- 能查询地址的 UTXO 数量
+- 能打铭文
+- 能打符文
+- 能用来 RBF 加速

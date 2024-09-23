@@ -1,0 +1,16 @@
+mode: api  # api , node 
+node: 
+  host: 38.60.216.87:8332
+  user: fractalbitcoin
+  pass: fractalbitcoin_1234567
+  http_post_mode: true
+  disable_tls: true
+api: 
+  url: https://mempool.space/testnet
+
+# var TestNet = &Env{
+# 	Net: &chaincfg.TestNet3Params,
+# 	// MempoolApi: "https://mempool.space/testnet",
+# 	MempoolApi: "https://luminex.mempool.space/testnet",
+# 	// QuickNode:  "https://small-multi-crater.btc-testnet.quiknode.pro/ede32c4b5c349447108b8cefa22a791af70344c5/",
+# 	QuickNode: "https://go.getblock.io/c466c3c045cb4f3ca155af3e9215ee85",
